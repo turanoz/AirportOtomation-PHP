@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9-_/]+)$ index.php [QSA]
+RewriteCond %{HTTP_HOST} ^http://havayolu.turanoz.com.tr/ [NC]
+RewriteRule ^(.*)$ http://havayolu.turanoz.com.tr/$1 [L,R=301,NC]
+ErrorDocument 404 http://havayolu.turanoz.com.tr/404

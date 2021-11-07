@@ -1,0 +1,20 @@
+/* CSS Document */
+
+
+.navbar{
+	opacity:0.8;
+	border-bottom:2px solid #1b1e21;
+}
+
+.bg-black{
+	background-color: rgba(0, 0, 57, 0.97);
+}
+
+.bg-blue{
+	background-color: rgba(58,193,240,0.5);
+	transition: all 0.5s;
+}
+.bg-blue:hover{
+	background-color: rgba(58,198,200,0.5);
+
+}
